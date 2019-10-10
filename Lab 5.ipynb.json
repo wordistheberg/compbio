@@ -73,7 +73,88 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "The RNAfold matches up very closely as far as I can tell to the actual folding sequence. "
+    "The RNAfolds appear to be matched up closely (altho reversed in the pdf) except for the YES-1 and NOT-1 which had different loops.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "        <iframe\n",
+       "            width=\"900\"\n",
+       "            height=\"800\"\n",
+       "            src=\"https://github.com/wordistheberg/compbio/blob/master/AND-1.pdf\"\n",
+       "            frameborder=\"0\"\n",
+       "            allowfullscreen\n",
+       "        ></iframe>\n",
+       "        "
+      ],
+      "text/plain": [
+       "<IPython.lib.display.IFrame at 0x7ff782b44630>"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from IPython.display import IFrame\n",
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/YES-1.pdf\", width=900, height=800)\n",
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/NOT-1.pdf\", width=900, height=800)\n",
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/OR-1.pdf\", width=900, height=800)\n",
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/AND-1.pdf\", width=900, height=800)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "        <iframe\n",
+       "            width=\"900\"\n",
+       "            height=\"800\"\n",
+       "            src=\"https://github.com/wordistheberg/compbio/blob/master/rna-10.pdf\"\n",
+       "            frameborder=\"0\"\n",
+       "            allowfullscreen\n",
+       "        ></iframe>\n",
+       "        "
+      ],
+      "text/plain": [
+       "<IPython.lib.display.IFrame at 0x7ff782b44860>"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/rna-9.pdf\", width=900, height=800)\n",
+    "\n",
+    "IFrame(\"https://github.com/wordistheberg/compbio/blob/master/rna-10.pdf\", width=900, height=800)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "YES-1: .(((((((.......((((((...........................))))))...(((((....))))).)))))))..\n",
+    "\n",
+    "AND-1: ((((((((((((((((((..............................................))))).))))).....(((((....))))).))))))))(.......)\n",
+    "\n",
+    "No it doesn't look like figure 2 since the red groups have connected and the OBS group is one big circle\n"
    ]
   },
   {
